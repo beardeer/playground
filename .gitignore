@@ -55,4 +55,6 @@ docs/_build/
 
 # PyBuilder
 target/
-.ipynb_checkpoints/process_skill_seq_map-checkpoint.ipynb
+*.csv
+.ipynb_checkpoints/
+local_data/
