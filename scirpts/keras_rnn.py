@@ -2,6 +2,8 @@
 """
 Created on Mon Nov 09 22:33:25 2015
 
+From: http://danielhnyk.cz/predicting-sequences-vectors-keras-using-rnn-lstm/
+
 @author: BearDeer
 """
 
@@ -44,7 +46,7 @@ def train_test_split(df, test_size=0.2):
 
     return (X_train, y_train), (X_test, y_test)
 
-input_path = r'../local_data/naive_c2_q50_s4000_v0.csv'
+input_path = r'../data/naive_c2_q50_s4000_v0.csv'
 input_file = open(input_path,'rb')
 reader=csv.reader(input_file)
 data_array=list(reader)
