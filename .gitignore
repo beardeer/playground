@@ -58,3 +58,5 @@ target/
 *.csv
 .ipynb_checkpoints/
 local_data/
+data/
+*.txt
