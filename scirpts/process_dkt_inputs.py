@@ -10,7 +10,7 @@ import csv
 print 'start'
 
 
-input_file = open('..\data\skill_builder_data_good.csv', 'rb')
+input_file = open('..\data\skill_builder_data_good_m.csv', 'rb')
 output_file = open('..\data\dkt_input.txt', 'w')
 output_file_2 = open('..\data\dkt_input_2.txt', 'w')
 csv_reader = csv.reader(input_file)
@@ -19,7 +19,7 @@ print csv_reader.next()
 user_id_col = 1
 correct_col = 2
 skill_id_col = 4
-skill_count = 111
+skill_count = 123
 csv_data = []
 skill_skill_mapping = {}
 current_str = ''
