@@ -1,7 +1,7 @@
 import csv
 
-input_file = open('data/builder_train.csv', 'rb')
-output_file = open('data/skill_difficulty.csv', 'wb')
+input_file = open('../data/builder_train.csv', 'rb')
+output_file = open('../data/skill_difficulty.csv', 'wb')
 
 reader = csv.reader(input_file)
 writer = csv.writer(output_file)
